@@ -2,11 +2,13 @@
 
 ## 설치방법
 
+- next 수동 설치
+
 ```plaintxt
 npm install next@latest react@latest react-dom@latest eslint-config-next@latest
 ```
 
-.gitignore
+- .gitignore
 
 ```plaintxt
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
@@ -48,7 +50,27 @@ next-env.d.ts
 
 ```
 
-editorconfig
+- .prettierrc.json
+
+```plaintxt
+{
+  "printWidth": 100,
+  "semi": false,
+  "singleQuote": true
+}
+
+```
+
+- .prettierignore
+
+```plaintxt
+.yarn
+.pnp.*
+
+
+```
+
+- .editorconfig
 
 ```plaintxt
 # editorconfig.org
@@ -66,7 +88,7 @@ insert_final_newline = true
 trim_trailing_whitespace = false
 ```
 
-package.json
+- package.json
 
 ```
 {
@@ -78,3 +100,8 @@ package.json
   }
 }
 ```
+
+- app 폴더 생성
+  - head.jsx
+  - layout.jsx
+  - page.jsx
