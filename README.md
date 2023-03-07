@@ -4,13 +4,13 @@
 
 - next 수동 설치
 
-```plaintxt
+```bash
 npm install next@latest react@latest react-dom@latest eslint-config-next@latest
 ```
 
 - .gitignore
 
-```plaintxt
+```bash
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -52,7 +52,7 @@ next-env.d.ts
 
 - .prettierrc.json
 
-```plaintxt
+```bash
 {
   "printWidth": 100,
   "semi": false,
@@ -63,7 +63,7 @@ next-env.d.ts
 
 - .prettierignore
 
-```plaintxt
+```bash
 .yarn
 .pnp.*
 
@@ -72,7 +72,7 @@ next-env.d.ts
 
 - .editorconfig
 
-```plaintxt
+```bash
 # editorconfig.org
 root = true
 
@@ -90,7 +90,7 @@ trim_trailing_whitespace = false
 
 - package.json
 
-```
+```bash
 {
   "scripts": {
     "dev": "next dev",
@@ -99,6 +99,19 @@ trim_trailing_whitespace = false
     "lint": "next lint"
   }
 }
+```
+
+- .eslintrc.json
+
+```bash
+{
+  "extends": "next/core-web-vitals"
+}
+
+```
+
+```git 설정
+git config core.autocrlf = false
 ```
 
 - app 폴더 생성
