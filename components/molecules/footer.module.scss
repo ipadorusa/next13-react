@@ -1,0 +1,188 @@
+.sri_footer {
+  display: block;
+  clear: both;
+  position: relative;
+  z-index: 10;
+  margin-top: 80px;
+  width: 100%;
+  border-top: 1px solid #dbe3e8;
+  background-color: #f2f6f9;
+}
+
+.sri_footer .wrap_footer {
+  min-width: 1260px;
+}
+
+.sri_footer .banners {
+  width: 100%;
+  font-size: 0;
+}
+
+.sri_footer .banners a {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  height: 60px;
+}
+
+.sri_footer .banners a:before,
+.sri_footer .banners a:after {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  z-index: 5;
+  background: url(//www.saraminimage.co.kr/sri/common/layout/footer/spr_footer_banners.png)
+    no-repeat;
+  content: '';
+}
+
+.sri_footer .banners a.banner_bluebird {
+  background: #4876ef;
+}
+
+.sri_footer .banners a.banner_bluebird:before {
+  right: 40px;
+  width: 303px;
+  height: 61px;
+  background-position: -5px -112px;
+}
+
+.sri_footer .banners a.banner_bluebird:after {
+  right: 383px;
+  width: 128px;
+  height: 97px;
+  background-position: -5px -5px;
+}
+
+.sri_footer .banners a.banner_welounge {
+  background: #0ccca4;
+}
+
+.sri_footer .banners a.banner_welounge:before {
+  left: 40px;
+  width: 276px;
+  height: 60px;
+  background: url(//www.saraminimage.co.kr/sri/common/layout/footer/img_footer_banner_txt.png)
+    no-repeat;
+}
+
+.sri_footer .banners a.banner_welounge:after {
+  left: 356px;
+  width: 128px;
+  height: 96px;
+  background-position: -143px -5px;
+}
+
+.sri_footer .links {
+  text-align: center;
+}
+
+.sri_footer .links > ul {
+  margin: 0 auto;
+  padding: 29px 0 25px;
+  width: 1260px;
+  font-size: 0;
+}
+
+.sri_footer .links > ul > li {
+  display: inline-block;
+  margin-left: 56px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.sri_footer .links > ul > li.first {
+  margin-left: 0;
+}
+
+.sri_footer .links > ul > li a {
+  color: #555;
+  font-size: 14px;
+  letter-spacing: -1px;
+  line-height: 18px;
+}
+
+.sri_footer .links > ul > li.bold a {
+  font-weight: bold;
+}
+
+.sri_footer .copyright {
+  width: 960px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  color: #909090;
+  font-family: 'Malgun Gothic', dotum, gulim, sans-serif;
+  font-size: 12px;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.sri_footer .copyright a {
+  color: #909090;
+}
+
+.sri_footer .copyright dl,
+.sri_footer .copyright dl > dt,
+.sri_footer .copyright dl > dd {
+  display: inline-block;
+}
+
+.sri_footer .copyright dl:before {
+  display: inline-block;
+  margin: -2px 8px 0;
+  width: 1px;
+  height: 14px;
+  background-color: #ddd;
+  vertical-align: middle;
+  content: '';
+}
+
+.sri_footer .copyright dl:first-child:before {
+  display: none;
+}
+
+.sri_footer .copyright .link_channel {
+  margin-top: 10px;
+}
+
+.sri_footer .copyright .link_channel .link_cont {
+  display: inline-block;
+}
+
+.sri_footer .copyright .link_channel .link_cont:after {
+  display: inline-block;
+  margin-left: 3px;
+  width: 20px;
+  height: 20px;
+  background: url(//www.saraminimage.co.kr/sri/common/layout/footer/spr_ico.png) -90px -10px
+    no-repeat;
+  vertical-align: middle;
+  content: '';
+}
+
+.sri_footer .copyright .link_channel dl dd a {
+  display: inline-block;
+  margin: -2px 2px 0;
+  width: 20px;
+  height: 20px;
+  background: url(//www.saraminimage.co.kr/sri/common/layout/footer/spr_ico.png) -90px -10px
+    no-repeat;
+  vertical-align: middle;
+}
+
+.sri_footer .copyright .link_channel dl dd:nth-of-type(1) a {
+  background-position: -50px -10px;
+}
+
+.sri_footer .copyright .link_channel dl dd:nth-of-type(2) a {
+  background-position: -10px -10px;
+}
+
+.sri_footer .copyright .link_channel dl dd:nth-of-type(3) a {
+  background-position: -50px -50px;
+}
+
+.sri_footer .copyright .link_channel dl dd:nth-of-type(4) a {
+  background-position: -10px -50px;
+}
