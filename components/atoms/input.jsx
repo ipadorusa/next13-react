@@ -1,8 +1,8 @@
-export default function InputCheck() {
+export default function InputCheck({ id }) {
   return (
-    <label htmlFor="">
+    <label htmlFor={id}>
       check
-      <input type="checkbox" />
+      <input className="input-item" type="checkbox" name={`select-item`} />
     </label>
   )
 }
